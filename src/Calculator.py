@@ -1,5 +1,3 @@
-import math
-
 def addition(a,b):
     return float(a) + float(b)
 
@@ -17,7 +15,7 @@ def square(a):
     return float(a) ** 2
 
 def squareRoot(a):
-    root = math.sqrt(float(a))
+    root = float(a) ** 0.5
     roundRoot = round(root, 8)
     return roundRoot
 
