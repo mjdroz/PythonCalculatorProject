@@ -1,5 +1,6 @@
 import unittest
 from Calculator import Calculator
+from CSVReader import CSVReader
 
 class MyTestCase(unittest.TestCase):
 
